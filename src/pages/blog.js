@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   },
 })
 
-const IndexPage = () => {
+const BlogPage = () => {
   const classes = useStyles()
   return (
     <Layout>
@@ -41,7 +41,7 @@ const IndexPage = () => {
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-      <Link to="/portfolio/">Go to page 2</Link>
+      <Link to="/page-2/">Go to page 2</Link>
       <Button variant="contained" className={classes.button}>
         Default
       </Button>
@@ -49,4 +49,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default BlogPage
